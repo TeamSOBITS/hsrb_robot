@@ -123,7 +123,7 @@ def generate_launch_description():
     status_led_node = Node(package='hsrb_status_led', executable='status_led_node', name='status_led_node')
 
     nodes = [controllers, odom, urg_node,
-             head_stereo_camera_node, head_center_camera_node, hand_camera_node, xtion_node,
+             head_stereo_camera_node, head_center_camera_node, hand_camera_node, # xtion_node,
              dynpick_node, frame_publishser_node, base_bumper_node,
              angle_sensors_alignment_node,
              status_led_node,
